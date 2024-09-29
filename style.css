@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Old+Uyghur&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://unpkg.com/@uiw/reset.css@1.0.6/reset.css');
+
+header {
+    background-color: rgb(166, 207, 247);
+}
+
+main {
+    background-color: rgb(231, 231, 231);
+}
+
+aside {
+    background-color: rgb(86, 167, 233);
+}
+
+footer {
+    background-color: rgb(7, 71, 109);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr ;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    gap: 1rem;
+    grid-template-areas:
+    "cabeza cabeza cabeza"
+    "principal principal lado"
+    "pie pie pie"    
+    ;
+}
+
+.borde{
+    border-radius: 8px 8px 8px 8px;
+}
+
+
+header {
+    grid-area: cabeza;
+}
+
+main {
+    grid-area: principal; 
+}
+
+aside {
+    grid-area: lado;
+}
+
+footer {
+    grid-area: pie;
+    color: aliceblue;
+}   
+
+p {
+    padding: 15px ;
+    font-family: "Nunito Sans", sans-serif ;
+    font-optical-sizing: auto ;
+    font-weight: weight ;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+}
+
+
+h1 {
+    padding: 1rem ;
+    font-family: "Noto Serif Old Uyghur", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    padding: 1rem;
+    font-family: "Noto Serif Old Uyghur", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3{
+    padding: 1rem;
+    font-family: "Noto Serif Old Uyghur", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h6{
+    padding: 1rem;
+    font-family: "Noto Serif Old Uyghur", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.comun {
+    clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+    float: right;
+}
+
+img{
+    width: 20%;
+    object-fit: cover;
+}
+
+.dos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.ei {
+    font-size: 15px;
+}
