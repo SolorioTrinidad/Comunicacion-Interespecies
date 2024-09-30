@@ -24,8 +24,8 @@ footer {
     height: 100vh;
     gap: 1rem;
     grid-template-areas:
-    "cabeza cabeza cabeza"
-    "principal principal lado"
+    "head head head"
+    "main main lade"
     "pie pie pie"    
     ;
 }
@@ -34,17 +34,16 @@ footer {
     border-radius: 8px 8px 8px 8px;
 }
 
-
 header {
-    grid-area: cabeza;
+    grid-area: head;
 }
 
 main {
-    grid-area: principal; 
+    grid-area: main; 
 }
 
 aside {
-    grid-area: lado;
+    grid-area: lade;
 }
 
 footer {
@@ -82,9 +81,18 @@ h2{
 }
 
 h3{
-    padding-left: 20px;
+    padding-left: 15px;
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    font-family: "Noto Serif Old Uyghur", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h4{
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 5px;
     font-family: "Noto Serif Old Uyghur", serif;
     font-weight: 400;
     font-style: normal;
@@ -92,40 +100,15 @@ h3{
 
 
 h6{
-    padding: 1rem;
+    margin-left: 20px;
     font-family: "Noto Serif Old Uyghur", serif;
     font-weight: 400;
     font-style: normal;
 }
 
-
-
-.comun {
-    clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
-    float: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 15%;
-}
-
-img{
-    object-fit: cover;
-}
-
-.dos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
-}
-
-.ei {
-    font-size: 15px;
-}
-
 li {
     padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-right: 20px;
     font-family: "Nunito Sans", sans-serif ;
     font-optical-sizing: auto ;
@@ -136,48 +119,55 @@ li {
       "YTLC" 500;
 }
 
-.maroon {
-    padding-bottom: 15px ;
+.perry {
+    clip-path: ellipse(43% 49% at 47% 50%);
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 20%;
 }
 
-.hera {
-    padding-right: 20px;
-}
-
-.cuak {
-    padding-right: 20px;
-    font-size: 13px;
-}
-
-.rap {
-    padding-right: 20px;
-    font-size: 20px;
-}
-
-.rob{
+.real {
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-right: 20px;
 }
 
-.pero{
-    clip-path: polygon(30% 0%, 70% 0%, 90% 30%, 90% 70%, 70% 100%, 30% 100%, 10% 70%, 10% 30%);
-    width: 16%;
-}
-
-.uno {
-    padding-top: 20px;
-}
-
-.cinco {
+.ody {
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
     padding-left: 20px;
-    padding-bottom:20px;
-    
 }
 
-.nath {
-    width: 90%;
-    padding-left: 25px;
-    padding-bottom: 30px;
-    padding-top: 10px;
+.polites {
+    width: 3% ;
+}
+
+.circe {
+    clip-path: ellipse(49% 38% at 50% 45%);
+    width: 85%;
+    margin-left: 20px;
+}
+
+.zeus {
+    font-size: 12px;
+}
+
+.penelope {
+    font-size: 20px;
+}
+
+.apolo {
+    clip-path: polygon(34% 0, 70% 0%, 90% 30%, 90% 70%, 70% 100%, 34% 100%, 15% 70%, 15% 30%);
+    width: 30%;
+}
+
+.ares {
+    display: flex;
+}
+
+.calypso {
+    margin-top: 20px;
 }
